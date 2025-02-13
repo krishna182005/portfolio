@@ -1,56 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Krishna | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1>Krishna</h1>
-            <p>Web Developer | Future SaaS Creator</p>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+/* Dark Theme with Violet Accents */
+body {
+    background: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-    <section id="about" class="container">
-        <h2>About Me</h2>
-        <p>Hello! I'm Krishna, a passionate web developer with a vision for creating SaaS platforms and modern websites.</p>
-    </section>
+/* Linear Gradient for Header */
+header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 20px 0;
+    text-align: center;
+}
 
-    <section id="projects" class="container">
-        <h2>Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <h3>Portfolio Website</h3>
-                <p>My personal website showcasing my work.</p>
-            </div>
-            <div class="project-card">
-                <h3>Future SaaS Project</h3>
-                <p>AI-driven industrial automation platform.</p>
-            </div>
-            <div class="project-card">
-                <h3>Another Project</h3>
-                <p>Describe another project here.</p>
-            </div>
-        </div>
-    </section>
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
 
-    <section id="contact" class="container">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-    </section>
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
 
-    <footer>
-        <p>© 2025 Krishna</p>
-    </footer>
-</body>
-</html>
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Sections */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+h2 {
+    border-bottom: 2px solid #6a11cb;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Grid-based Project Section */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
