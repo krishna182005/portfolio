@@ -104,5 +104,5 @@ footer {
     color: #ffffff;
     display: none;
     font-size: 14px;
-    transition: max-height 1.5s ease;
+    transition: max-height 0.3s ease;
 }
