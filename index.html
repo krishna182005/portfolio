@@ -3,84 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <title>Krishna | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <header>
         <div class="container">
-            <a class="navbar-brand" href="#">My Portfolio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <h1>Krishna</h1>
+            <p>Web Developer | Future SaaS Creator</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
-            </div>
+            </nav>
         </div>
-    </nav>
-
-    <header class="text-center text-white bg-primary py-5">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Web Developer | Designer | Freelancer</p>
     </header>
 
-    <section id="about" class="container my-5">
+    <section id="about" class="container">
         <h2>About Me</h2>
-        <p>Hello! I'm a web developer passionate about creating stunning and functional websites.</p>
+        <p>Hello! I'm Krishna, a passionate web developer with a vision for creating SaaS platforms and modern websites.</p>
     </section>
 
-    <section id="projects" class="container my-5">
+    <section id="projects" class="container">
         <h2>Projects</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/project1.jpg" class="card-img-top" alt="Project 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Project 1</h5>
-                        <p class="card-text">Description of project 1.</p>
-                    </div>
-                </div>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>My personal website showcasing my work.</p>
             </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/project2.jpg" class="card-img-top" alt="Project 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Project 2</h5>
-                        <p class="card-text">Description of project 2.</p>
-                    </div>
-                </div>
+            <div class="project-card">
+                <h3>Future SaaS Project</h3>
+                <p>AI-driven industrial automation platform.</p>
+            </div>
+            <div class="project-card">
+                <h3>Another Project</h3>
+                <p>Describe another project here.</p>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="container my-5">
+    <section id="contact" class="container">
         <h2>Contact Me</h2>
-        <form>
-            <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" required>
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" required>
-            </div>
-            <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="3" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Send</button>
-        </form>
+        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
     </section>
 
-    <footer class="text-center py-3 bg-dark text-white">
-        <p>&copy; 2025 My Portfolio. All Rights Reserved.</p>
+    <footer>
+        <p>© 2025 Krishna</p>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
