@@ -101,8 +101,8 @@ footer {
 
 .details {
     margin-top: 10px;
-    color: #555;
+    color: #ffffff;
     display: none;
     font-size: 14px;
-    transition: max-height 0.3s ease;
+    transition: max-height 1.5s ease;
 }
