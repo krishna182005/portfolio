@@ -1,3 +1,56 @@
-body {
-    font-family: Arial, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Krishna</h1>
+            <p>Web Developer | Future SaaS Creator</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hello! I'm Krishna, a passionate web developer with a vision for creating SaaS platforms and modern websites.</p>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>My personal website showcasing my work.</p>
+            </div>
+            <div class="project-card">
+                <h3>Future SaaS Project</h3>
+                <p>AI-driven industrial automation platform.</p>
+            </div>
+            <div class="project-card">
+                <h3>Another Project</h3>
+                <p>Describe another project here.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Krishna</p>
+    </footer>
+</body>
+</html>
