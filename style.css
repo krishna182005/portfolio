@@ -106,3 +106,15 @@ footer {
     font-size: 14px;
     transition: max-height 0.3s ease;
 }
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #FFD700; /* Vibrant gold */
+}
+
+a:active {
+    color: #FFC107; /* Slightly deeper gold */
+}
