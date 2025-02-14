@@ -1,0 +1,21 @@
+# Hi there, I'm Krishna 👋
+
+## About Me
+- 🌱 I’m currently learning and exploring new technologies.
+- 👯 I’m looking to collaborate on exciting open-source projects.
+- 🤔 I’m open to discussing innovative ideas and new opportunities.
+- 💬 Ask me about anything tech-related, I'm happy to help.
+- 📫 How to reach me: [Email](mailto:krishna182005@example.com)
+- ⚡ Fun fact: I love solving puzzles and playing chess in my free time.
+
+## GitHub Stats
+![Krishna's GitHub stats](https://github-readme-stats.vercel.app/api?username=krishna182005&show_icons=true&theme=radical)
+
+## Top Languages
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=krishna182005&layout=compact&theme=radical)
+
+## Let's Connect
+- [LinkedIn](https://www.linkedin.com/in/krishna182005)
+- [Twitter](https://twitter.com/krishna182005)
+
+Thank you for visiting my profile!
