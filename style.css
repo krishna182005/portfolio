@@ -75,6 +75,7 @@ footer {
 }
 
 .content {
+    display: flex;
     width: 300px;
     margin: 20px auto;
     border: 1px solid #ccc;
