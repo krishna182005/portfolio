@@ -15,23 +15,50 @@ header {
     background: #1e1e1e;
     padding: 20px;
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background: #111;
+}
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline-block;
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
     padding: 10px 15px;
     transition: 0.3s;
 }
 
 nav ul li a:hover {
-    background: violet;
-    border-radius: 5px;
+    color: #FFD700;
+}
+
+/* Fix for contact and cart alignment */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-right a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.nav-right a:hover {
+    color: #FFD700;
 }
 
 /* Hero Section */
