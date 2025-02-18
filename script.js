@@ -2,8 +2,10 @@ function toggleDetails() {
     const details = document.querySelector('.details');
     const btn = document.querySelector('.show-more-btn');
 
-    details.classList.toggle('show'); // Toggle the visibility class
+    // Toggle the 'show' class
+    details.classList.toggle('show');
 
+    // Change button text based on the visibility of details
     if (details.classList.contains('show')) {
         btn.textContent = 'Show less';
     } else {
