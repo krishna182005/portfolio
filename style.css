@@ -7,12 +7,17 @@ body {
     padding: 0;
 }
 
-/* Linear Gradient for Header */
+/* Linear Gradient for Header and Footer with Gold Metallic Effect */
 header {
-    background: #ffd700;
-    background: linear-gradient(280deg, rgba(0,0,0,1) 8%, rgba(0,0,0,0.008012820512820484) 28%, rgba(13,2,36,0) 50%, rgba(0,0,0,1) 99%);
+    background: linear-gradient(45deg, #d4af37, #a57c1f, #c59d3f, #c49e5d);
     padding: 20px 0;
     text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(45deg, #d4af37, #a57c1f, #c59d3f, #c49e5d);
 }
 
 h1 {
@@ -72,10 +77,10 @@ h2 {
 footer {
     text-align: center;
     padding: 20px;
-    background: #ffd700;
-    background: linear-gradient(280deg, rgba(0,0,0,1) 8%, rgba(0,0,0,0.008012820512820484) 28%, rgba(13,2,36,0) 50%, rgba(0,0,0,1) 99%);;
+    background: linear-gradient(45deg, #d4af37, #a57c1f, #c59d3f, #c49e5d);
 }
 
+/* Content */
 .content {
     width: 90%; /* Adjust width for responsiveness */
     max-width: 400px; /* Reduce width to prevent it from being too wide */
@@ -86,7 +91,6 @@ footer {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-family: 'Arial', sans-serif;
     text-align: center; /* Centers text */
-}
 }
 
 .short-text {
@@ -112,6 +116,7 @@ footer {
     font-size: 16px;
     transition: max-height 0.3s ease;
 }
+
 a {
     color: white;
     text-decoration: none;
