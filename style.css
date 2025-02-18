@@ -88,12 +88,12 @@ h2 {
 
 .short-text {
     margin: 0 auto;
-    color: #333;
+    color: #ffffff;
     font-size: 16px;
 }
 
 .show-more-btn {
-    color: #007BFF;
+    color: #FFD700;
     cursor: pointer;
     text-decoration: underline;
     display: block;
