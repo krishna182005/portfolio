@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 
-/* Header and Footer Styling with Gold Metallic Effect */
+/* Linear Gradient for Header and Footer with Gold Metallic Effect */
 header {
     background: linear-gradient(45deg, #d4af37, #a57c1f, #c59d3f, #c49e5d);
     padding: 20px 0;
@@ -20,12 +20,12 @@ footer {
     background: linear-gradient(45deg, #d4af37, #a57c1f, #c59d3f, #c49e5d);
 }
 
-/* Basic text styling */
 h1 {
     margin: 0;
     font-size: 2.5em;
 }
 
+/* Navigation */
 nav ul {
     list-style: none;
     padding: 0;
@@ -41,6 +41,7 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Sections */
 .container {
     width: 80%;
     margin: auto;
@@ -53,7 +54,54 @@ h2 {
     padding-bottom: 5px;
 }
 
-/* Section for Details */
+/* Grid-based Project Section */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Content */
+.content {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.short-text {
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.show-more-btn {
+    color: #FFD700;
+    cursor: pointer;
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    user-select: none;
+}
+
 .details {
     margin-top: 10px;
     color: #ffffff;
@@ -66,18 +114,15 @@ h2 {
     display: block;
 }
 
-.show-more-btn {
-    color: #eedc82;
-    cursor: pointer;
-    text-decoration: underline;
-    display: block;
-    text-align: center;
-    margin: 10px auto;
-    user-select: none;
+a {
+    color: white;
+    text-decoration: none;
 }
 
-.short-text {
-    margin: 0 auto;
-    color: #ffffff;
-    font-size: 16px;
+a:hover, a:focus {
+    color: #FFD700;
+}
+
+a:active {
+    color: #FFC107;
 }
