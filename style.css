@@ -97,8 +97,9 @@ footer {
     color: #007BFF;
     cursor: pointer;
     text-decoration: underline;
-    margin-left: 5px;
-    margin-right: 5px;
+    display: block; /* Ensures full width */
+    text-align: center; /* Centers the text */
+    margin: 10px auto; /* Centers horizontally */
     user-select: none;
 }
 
