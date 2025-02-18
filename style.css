@@ -77,15 +77,16 @@ footer {
 }
 
 .content {
-    width: 60%; /* Make it responsive */
-    max-width: 600px; /* Prevent it from being too wide */
-    margin: 20px auto; /* Centers the box */
+    width: 90%; /* Adjust width for responsiveness */
+    max-width: 400px; /* Reduce width to prevent it from being too wide */
+    margin: 20px auto; /* Center horizontally */
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-family: 'Arial', sans-serif;
-    text-align: center; /* Ensures text is centered */
+    text-align: center; /* Centers text */
+}
 }
 
 .short-text {
