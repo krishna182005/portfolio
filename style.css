@@ -78,7 +78,7 @@ footer {
 
 .content {
     width: 300px;
-    margin: 20px auto;
+    margin: 20px 10px 20px 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 20px;
