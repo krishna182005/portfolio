@@ -95,7 +95,7 @@ footer {
 
 .short-text {
     margin: 0 auto;
-    color: #eedc82;
+    color: #ffffff;
     font-size: 16px;
 }
 
@@ -115,6 +115,11 @@ footer {
     display: none;
     font-size: 16px;
     transition: max-height 0.3s ease;
+}
+
+/* Add this to make details visible when the 'show' class is applied */
+.details.show {
+    display: block;
 }
 
 a {
