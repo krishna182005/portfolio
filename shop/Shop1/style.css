@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #2a004e, #4b0082);
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Glass Button */
+.glass-button {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+}
+
+.glass-button:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+}
