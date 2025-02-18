@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 
-/* Linear Gradient for Header and Footer with Gold Metallic Effect */
+/* Header and Footer Styling with Gold Metallic Effect */
 header {
     background: linear-gradient(45deg, #d4af37, #a57c1f, #c59d3f, #c49e5d);
     padding: 20px 0;
@@ -20,12 +20,12 @@ footer {
     background: linear-gradient(45deg, #d4af37, #a57c1f, #c59d3f, #c49e5d);
 }
 
+/* Basic text styling */
 h1 {
     margin: 0;
     font-size: 2.5em;
 }
 
-/* Navigation */
 nav ul {
     list-style: none;
     padding: 0;
@@ -41,7 +41,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Sections */
 .container {
     width: 80%;
     margin: auto;
@@ -54,61 +53,7 @@ h2 {
     padding-bottom: 5px;
 }
 
-/* Grid-based Project Section */
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-}
-
-.project-card {
-    background: #1e1e1e;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s;
-}
-
-.project-card:hover {
-    transform: translateY(-5px);
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 20px;
-    background: linear-gradient(45deg, #d4af37, #a57c1f, #c59d3f, #c49e5d);
-}
-
-/* Content */
-.content {
-    width: 90%; /* Adjust width for responsiveness */
-    max-width: 400px; /* Reduce width to prevent it from being too wide */
-    margin: 20px auto; /* Center horizontally */
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    font-family: 'Arial', sans-serif;
-    text-align: center; /* Centers text */
-}
-
-.short-text {
-    margin: 0 auto;
-    color: #ffffff;
-    font-size: 16px;
-}
-
-.show-more-btn {
-    color: #eedc82;
-    cursor: pointer;
-    text-decoration: underline;
-    display: block; /* Ensures full width */
-    text-align: center; /* Centers the text */
-    margin: 10px auto; /* Centers horizontally */
-    user-select: none;
-}
-
+/* Section for Details */
 .details {
     margin-top: 10px;
     color: #ffffff;
@@ -117,20 +62,22 @@ footer {
     transition: max-height 0.3s ease;
 }
 
-/* Add this to make details visible when the 'show' class is applied */
 .details.show {
     display: block;
 }
 
-a {
-    color: white;
-    text-decoration: none;
+.show-more-btn {
+    color: #eedc82;
+    cursor: pointer;
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    user-select: none;
 }
 
-a:hover, a:focus {
-    color: #FFD700; /* Vibrant gold */
-}
-
-a:active {
-    color: #FFC107; /* Slightly deeper gold */
+.short-text {
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 16px;
 }
