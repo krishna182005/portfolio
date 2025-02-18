@@ -2,7 +2,7 @@ function toggleDetails() {
     const details = document.querySelector('.details');
     const btn = document.querySelector('.show-more-btn');
 
-    // Toggle the 'show' class
+    // Toggle the visibility of details
     details.classList.toggle('show');
 
     // Change button text based on the visibility of details
