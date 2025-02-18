@@ -9,7 +9,7 @@ body {
 
 /* Linear Gradient for Header */
 header {
-    background: rgb(0,0,0);
+    background: #ffd700;
     background: linear-gradient(280deg, rgba(0,0,0,1) 8%, rgba(0,0,0,0.008012820512820484) 28%, rgba(13,2,36,0) 50%, rgba(0,0,0,1) 99%);
     padding: 20px 0;
     text-align: center;
@@ -72,13 +72,13 @@ h2 {
 footer {
     text-align: center;
     padding: 20px;
-    background: rgb(0,0,0);
+    background: #ffd700;
     background: linear-gradient(280deg, rgba(0,0,0,1) 8%, rgba(0,0,0,0.008012820512820484) 28%, rgba(13,2,36,0) 50%, rgba(0,0,0,1) 99%);;
 }
 
 .content {
     width: 300px;
-    margin: 20px 10px 20px 10px;
+    margin: 20px auto;
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 20px;
