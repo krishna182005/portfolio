@@ -95,12 +95,12 @@ footer {
 
 .short-text {
     margin: 0 auto;
-    color: white;
+    color: #eedc82;
     font-size: 16px;
 }
 
 .show-more-btn {
-    color: #007BFF;
+    color: #eedc82;
     cursor: pointer;
     text-decoration: underline;
     display: block; /* Ensures full width */
