@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 
-/* Linear Gradient for Header and Footer with Gold Metallic Effect */
+
 header {
     background: linear-gradient(45deg, #d4af37, #a57c1f, #c59d3f, #c49e5d);
     padding: 20px 0;
