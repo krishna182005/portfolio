@@ -7,6 +7,8 @@
 - 💬 Ask me about anything tech-related, I'm happy to help.
 - 📫 How to reach me: [Email](mailto:krishna182005@example.com)
 - ⚡ Fun fact: I love solving puzzles and playing chess in my free time.
+MY CERTIFICATES
+[freeCodeCamp](https://www.freecodecamp.org/certification/fcc5a41c0e4-87df-41f9-b7c6-04d0f08d7245/responsive-web-design).
 
 ## GitHub Stats
 ![Krishna's GitHub stats](https://github-readme-stats.vercel.app/api?username=krishna182005&show_icons=true&theme=radical)
