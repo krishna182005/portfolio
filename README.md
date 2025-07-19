@@ -5,7 +5,7 @@
 - 👯 I’m looking to collaborate on exciting open-source projects.
 - 🤔 I’m open to discussing innovative ideas and new opportunities.
 - 💬 Ask me about anything tech-related, I'm happy to help.
-- 📫 How to reach me: [Email](mailto:krishna182005@example.com)
+- 📫 How to reach me: [Email](mailto: krishnavembuli@gmail.com)
 - ⚡ Fun fact: I love solving puzzles and playing chess in my free time.
 MY CERTIFICATES
 [freeCodeCamp](https://www.freecodecamp.org/certification/fcc5a41c0e4-87df-41f9-b7c6-04d0f08d7245/responsive-web-design).
