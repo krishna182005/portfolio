@@ -17,7 +17,7 @@ MY CERTIFICATES
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=krishna182005&layout=compact&theme=radical)
 
 ## Let's Connect
-- [LinkedIn](https://www.linkedin.com/in/krishna182005)
-- [Twitter](https://twitter.com/krishna182005)
+- [LinkedIn](https://www.linkedin.com/in/krishna-d-140594372)
+- [Twitter](https://x.com/KVembuli42944)
 
 Thank you for visiting my profile!
