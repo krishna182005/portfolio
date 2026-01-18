@@ -1,4 +1,4 @@
-# Krishna Vembuli's Portfolio
+# Krishna's Portfolio
 
 [![GitHub followers](https://img.shields.io/github/followers/krishna182005?style=social)](https://github.com/krishna182005)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/krishna-d-140594372)
